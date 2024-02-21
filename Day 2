@@ -1,0 +1,36 @@
+*Parallel:
+8_bit data transfer the same time.
+
+*Serial:
+8_bit data tansfer one bit at the time.
+
+  SERIAL DATA COMMUNICATION USES TWO METHODS:
+
+*SYNCHRONOUS:
+Clock is transmiited with the data
+
+  *ASYNCHRONOUS:
+  No clock is transmitted.Transmitter and receiver agree on the clock speed for the data transmisson.(Baudrate).
+
+  UART:
+  Universal Asynchronous Receiver/Transmitter.
+
+  USART:
+Universal Synchronous Receiver/Transmitter.
+
+  DUPLEX:
+Data can be transmitted and received.
+
+  SIMPLEX:
+Data can be trasmitted only or received only.i.e.one direction only.
+
+  HALF DUPLEX:
+Data can be transmitted in only one way at a time.
+
+  FULL DUPLEX:
+  Data can be transmitted in both ways at a time.
+
+  In Asynchronous transmisson,each byte(character)is packed between start and stop bits.
+  *Start bit is always 1 bit,the value of the start bit is always 0.
+  *Stop bit can be 1 0r 2 bits,the value of the stop bit is always 1.
+ 
