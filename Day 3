@@ -1,0 +1,22 @@
+SINGLE BOARD COMPUTER:
+   The usageof System On Module over a System On Chip is the most rapid way to achieve time to market, 
+curtail development risks for product quantities ranging from few to thousands. 
+RuggedBoard team targets to combine the Open Source Community strength with Industrial-Grade SOM and 
+initiated the first Open Source Hardware "RuggedBoard-A5D2x" which is powered by phyCORE-A5D2 SOM with 
+Microchip SAMA5D2x SoC, Cortex-A5 Core @500 MHz
+SOC:
+   SoC stands for System On Chip. It is a small integrated chip that contains all the required components 
+and circuits of a particular system. The components of SoC include CPU, GPU, Memory, I/O devices, etc. 
+SoC is used in various devices such as smartphones, Internet of Things appliances, tablets, and embedded 
+system applications.In this article, we are going to see the architecture and architectural features of SoC.
+
+  A5D2X:
+    RuggedBoard - A5D2x is an Single Board Computer providing as easy migration path from Microcontroller
+  to Microprocessor.  RuggedBoard is enabled with industry Standard Yocto Build Embedded Linux platform and
+ open source libraries for industrial application development.
+
+SOM:
+     phyCORE-A5D2x usually includes drivers and/or software for controlling all components such as interfaces, 
+memory, etc. Therefore, programming close to hardware at register level is not necessary in most cases. 
+For this reason, this manual contains no detailed description of the controller's registers, or 
+information relevant for software development.
